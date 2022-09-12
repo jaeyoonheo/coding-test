@@ -121,7 +121,7 @@ distance = [INF] * (n+1)
 for _ in range(m):
     a,b,c = map(int,input().split())
     graph[a].append((b,c))
-    # b는 가는 곳 c
+    # b는 가는 곳 c는 거리
     
 def dijkstra(start):
     q = []
