@@ -42,3 +42,6 @@ def solution(rc, operations):
         answer[r].append(out_cols[1][r]) 
     
     return answer
+
+
+## https://hz25.tistory.com/7
